@@ -1,5 +1,5 @@
 function updateViewCreateNew() {
-    document.getElementById('app').innerHTML = /*html*/`
+    document.getElementById('app').innerHTML = /*HTML*/`
         ${createMenuHtml()}
         <hr/>
         <h3>Legg til ny person</h3>

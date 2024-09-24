@@ -26,7 +26,7 @@ function createHtmlPeople() {
     }
     for (let i = 0; i < people.length; i++) {
         const person = people[i];
-        html += /*html*/`
+        html += /*HTML*/`
             <li>
                 ${person.name} 
                 ${person.email} 
