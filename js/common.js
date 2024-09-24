@@ -1,5 +1,6 @@
 function createMenuHtml() {
     return /*html*/`
+        Meny: 
         <button onclick="model.app.page='search'; updateView()">Søk</button>
         <button onclick="model.app.page='createNew'; updateView()">Legge til</button>
     `;

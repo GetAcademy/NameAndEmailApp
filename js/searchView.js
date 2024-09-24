@@ -24,8 +24,7 @@ function createHtmlPeople() {
     if (searchText !== '') {
         people = filterPeople(searchText, people);
     }
-    for (let i = 0; i < people.length; i++) {
-        const person = people[i];
+    for (let person of people) {
         html += /*HTML*/`
             <li>
                 ${person.name} 
@@ -44,8 +43,7 @@ function filterPeople(searchText, people) {
     for (let person of people) {
         const name = person.name.toLowerCase();
         const email = person.email.toLowerCase();
-        if (name.indexOf(searchText) != -1
-         || email.indexOf(searchText) != -1) {
+        if (name.includes(searchText) || email.includes(searchText)) {
             filteredList.push(person);
         }
     }

@@ -11,4 +11,4 @@ Gå gjennom og forklare hele applikasjonen
 
 5: Endre på applikasjonen - kom med innspill!
  - "dummy login"
- - 
+ - funksjon for å bytte side
