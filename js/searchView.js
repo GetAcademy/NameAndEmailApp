@@ -6,7 +6,7 @@ function updateViewSearch() {
         <input 
             type="text" 
             oninput="model.inputs.search.text=this.value"
-            value="${model.inputs.search.text || ''}"
+            value="${model.inputs.search.text ?? ''}"
             />
         <button onclick="updateView()">Søk</button>
 

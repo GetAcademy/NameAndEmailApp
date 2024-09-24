@@ -29,9 +29,9 @@ function findObjectById(id, list) {
 }
 
 function getMaxPersonId() {
-    let id = 0;
+    let maxId = 0;
     for (let person of model.people) {
-        if (person.id > id) id = person.id;
+        if (person.id > maxId) maxId = person.id;
     }
-    return id;
+    return maxId;
 }
