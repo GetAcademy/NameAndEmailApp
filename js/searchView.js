@@ -31,7 +31,7 @@ function createHtmlPeople() {
                 ${person.name} 
                 ${person.email} 
                 <button onclick="goToEditPage(${person.id})">endre</button>
-                <button onclick="goToDeletePage(${person.id})">x</button>
+                <button onclick="goToDeletePage(${person.id})">×</button>
             </li>
         `;
     }

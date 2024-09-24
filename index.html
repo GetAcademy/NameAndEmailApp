@@ -18,11 +18,9 @@
     <script src="js/deleteView.js"></script>
 </head>
 
-<body>
+<body onload="updateView()">
     <div id="app"></div>
-
     <script>
-        updateView();
         function updateView() {
             const page = model.app.page;
             if (page === 'search') updateViewSearch();
